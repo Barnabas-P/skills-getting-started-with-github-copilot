@@ -74,7 +74,45 @@ activities = {
       "schedule": "Fridays, 3:30 PM - 5:00 PM",
       "max_participants": 20,
       "participants": []
-   }
+   },
+   "Music Band": {
+      "description": "Learn and perform music with the school band",
+      "schedule": "Mondays and Fridays, 4:00 PM - 5:30 PM",
+      "max_participants": 25,
+      "participants": []
+   },
+   "Robotics Club": {
+      "description": "Build and program robots for competitions",
+      "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+      "max_participants": 18,
+      "participants": []
+   },
+
+   "Literature Club": {
+      "description": "Explore classic and contemporary literature through reading and discussion",
+      "schedule": "Mondays, 3:30 PM - 5:00 PM",
+      "max_participants": 20,
+      "participants": []
+      },
+      "Environmental Club": {
+      "description": "Learn about sustainability and environmental conservation",
+      "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+      "max_participants": 15,
+      "participants": []
+      },
+
+      "Debate Team": {
+         "description": "Learn public speaking and argumentation skills",
+         "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+         "max_participants": 16,
+         "participants": []
+         },
+         "Model United Nations": {
+         "description": "Represent countries and engage in diplomatic simulations",
+         "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+         "max_participants": 22,
+         "participants": []
+         },
 }
 
 @app.get("/") 
