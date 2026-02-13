@@ -191,6 +191,36 @@ button:hover {
   border: 1px solid #dbe7ff;
   box-shadow: 0 1px 0 rgba(10, 25, 47, 0.03);
   margin: 0; /* spacing handled by gap */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.participant-email {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 4px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1;
+}
+
+.participant-remove:hover {
+  background: #fdecea;
 }
 
 .no-participants {
